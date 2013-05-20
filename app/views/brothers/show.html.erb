@@ -1,0 +1,43 @@
+<%- model_class = Brother -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
+  <dd><%= @brother.name %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:addr1) %>:</strong></dt>
+  <dd><%= @brother.addr1 %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:addr2) %>:</strong></dt>
+  <dd><%= @brother.addr2 %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:cep) %>:</strong></dt>
+  <dd><%= @brother.cep %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:resphone) %>:</strong></dt>
+  <dd><%= @brother.resphone %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:cellphone) %>:</strong></dt>
+  <dd><%= @brother.cellphone %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:comphone) %>:</strong></dt>
+  <dd><%= @brother.comphone %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:birthdate) %>:</strong></dt>
+  <dd><%= @brother.birthdate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:date1) %>:</strong></dt>
+  <dd><%= @brother.date1 %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:date2) %>:</strong></dt>
+  <dd><%= @brother.date2 %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:date3) %>:</strong></dt>
+  <dd><%= @brother.date3 %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:degree) %>:</strong></dt>
+  <dd><%= @brother.degree %></dd>
+</dl>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              brothers_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_brother_path(@brother), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              brother_path(@brother),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

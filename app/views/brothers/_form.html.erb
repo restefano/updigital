@@ -1,0 +1,80 @@
+<%= form_for @brother, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :addr1, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :addr1, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :addr2, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :addr2, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :cep, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :cep, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :resphone, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :resphone, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :cellphone, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :cellphone, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :comphone, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :comphone, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :birthdate, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :birthdate, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :date1, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :date1, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :date2, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :date2, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :date3, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :date3, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :degree, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :degree, :class => 'number_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                brothers_path, :class => 'btn' %>
+  </div>
+<% end %>
