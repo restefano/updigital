@@ -1,0 +1,8 @@
+<h4>Cadastro no Portal</h4>
+
+<%= form_for @user do |form| %>
+  <%= render :partial => '/users/form', :object => form %>
+  <br>
+  <button type="submit" class="btn btn-primary">Registrar-se</button>
+  <br>
+<% end %>

@@ -1,0 +1,264 @@
+10 locales available: en, pt, time, date, datetime, errors, helpers, number, support, activemodel
+261 unique keys found.
+261 keys are missing from one or more locales:
+'abbr_day_names': Missing from :en, :pt, :time, :datetime, :errors, :helpers, :number, :support, :activemodel
+'abbr_month_names': Missing from :en, :pt, :time, :datetime, :errors, :helpers, :number, :support, :activemodel
+'activerecord.errors.messages.record_invalid': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'activerecord.errors.messages.taken': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'am': Missing from :en, :pt, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'array.last_word_connector': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :activemodel
+'array.two_words_connector': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :activemodel
+'array.words_connector': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :activemodel
+'clearance_mailer.change_password.closing': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'clearance_mailer.change_password.opening': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'currency.format.delimiter': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.format': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.precision': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.separator': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.significant': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.strip_insignificant_zeros': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'currency.format.unit': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'date.abbr_day_names': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.abbr_month_names': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.day_names': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.formats.default': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.formats.long': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.formats.short': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.month_names': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'date.order': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_hours.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_hours.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_months.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_months.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_years.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.about_x_years.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.almost_x_years.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.almost_x_years.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.half_a_minute': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.less_than_x_minutes.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.less_than_x_minutes.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.less_than_x_seconds.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.less_than_x_seconds.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.over_x_years.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.over_x_years.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_days.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_days.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_minutes.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_minutes.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_months.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_months.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_seconds.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.distance_in_words.x_seconds.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.day': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.hour': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.minute': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.month': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.second': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'datetime.prompts.year': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'day_names': Missing from :en, :pt, :time, :datetime, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_hours.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_hours.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_months.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_months.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_years.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.about_x_years.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.almost_x_years.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.almost_x_years.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.half_a_minute': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.less_than_x_minutes.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.less_than_x_minutes.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.less_than_x_seconds.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.less_than_x_seconds.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.over_x_years.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.over_x_years.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_days.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_days.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_minutes.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_minutes.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_months.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_months.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_seconds.one': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'distance_in_words.x_seconds.other': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'errors.format': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.accepted': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.blank': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.confirmation': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.empty': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.equal_to': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.even': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.exclusion': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.greater_than': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.greater_than_or_equal_to': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.inclusion': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.invalid': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.less_than': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.less_than_or_equal_to': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.not_a_number': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.not_an_integer': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.odd': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.record_invalid': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.taken': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.too_long': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.too_short': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.messages.wrong_length': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.template.body': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.template.header.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'errors.template.header.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :number, :support
+'flashes.failure_after_create': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'flashes.failure_after_update': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'flashes.failure_when_forbidden': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'format': Missing from :en, :pt, :time, :date, :datetime, :helpers, :support, :activemodel
+'format.delimiter': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'format.precision': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'format.separator': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'format.significant': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'format.strip_insignificant_zeros': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'formats.default': Missing from :en, :pt, :datetime, :errors, :helpers, :number, :support, :activemodel
+'formats.long': Missing from :en, :pt, :datetime, :errors, :helpers, :number, :support, :activemodel
+'formats.short': Missing from :en, :pt, :datetime, :errors, :helpers, :number, :support, :activemodel
+'hello': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.actions': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.button.create': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.button.submit': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.button.update': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.label.password.email': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.label.password_reset.password': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.back': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.cancel': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.confirm': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.destroy': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.edit': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.links.new': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.select.prompt': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.create': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.password.submit': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.password_reset.submit': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.session.submit': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.submit': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.update': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.submit.user.create': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.titles.delete': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.titles.edit': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.titles.new': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'helpers.titles.save': Missing from :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'human.decimal_units.format': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.billion.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.billion.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.million.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.million.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.quadrillion.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.quadrillion.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.thousand': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.trillion.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.trillion.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.decimal_units.units.unit': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.format.delimiter': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.format.precision': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.format.significant': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.format.strip_insignificant_zeros': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.format': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.byte.one': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.byte.other': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.gb': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.kb': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.mb': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'human.storage_units.units.tb': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'layouts.application.sign_in': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'layouts.application.sign_out': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'links.back': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'links.cancel': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'links.confirm': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'links.destroy': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'links.edit': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'links.new': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'messages.accepted': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.blank': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.confirmation': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.empty': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.equal_to': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.even': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.exclusion': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.greater_than': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.greater_than_or_equal_to': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.inclusion': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.invalid': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.less_than': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.less_than_or_equal_to': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.not_a_number': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.not_an_integer': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.odd': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.record_invalid': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.taken': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.too_long': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.too_short': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'messages.wrong_length': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'month_names': Missing from :en, :pt, :time, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.delimiter': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.format': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.precision': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.separator': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.significant': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.strip_insignificant_zeros': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.currency.format.unit': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.format.delimiter': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.format.precision': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.format.separator': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.format.significant': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.format.strip_insignificant_zeros': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.format': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.billion': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.million': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.quadrillion': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.thousand': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.trillion': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.decimal_units.units.unit': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.format.delimiter': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.format.precision': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.format.significant': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.format.strip_insignificant_zeros': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.format': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.byte.one': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.byte.other': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.gb': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.kb': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.mb': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.human.storage_units.units.tb': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.percentage.format.delimiter': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'number.precision.format.delimiter': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'order': Missing from :en, :pt, :time, :datetime, :errors, :helpers, :number, :support, :activemodel
+'passwords.create.description': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'passwords.edit.description': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'passwords.edit.title': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'passwords.new.description': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'passwords.new.title': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'percentage.format.delimiter': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'pm': Missing from :en, :pt, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'precision.format.delimiter': Missing from :en, :pt, :time, :date, :datetime, :errors, :helpers, :support, :activemodel
+'prompts.day': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'prompts.hour': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'prompts.minute': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'prompts.month': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'prompts.second': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'prompts.year': Missing from :en, :pt, :time, :date, :errors, :helpers, :number, :support, :activemodel
+'select.prompt': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'sessions.form.forgot_password': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'sessions.form.sign_up': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'sessions.form.title': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'sessions.new.forgot_password': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'sessions.new.sign_up': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'sessions.new.title': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'submit.create': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'submit.submit': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'submit.update': Missing from :en, :pt, :time, :date, :datetime, :errors, :number, :support, :activemodel
+'support.array.last_word_connector': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'support.array.two_words_connector': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'support.array.words_connector': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'template.body': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'template.header.one': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'template.header.other': Missing from :en, :pt, :time, :date, :datetime, :helpers, :number, :support, :activemodel
+'time.am': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'time.formats.default': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'time.formats.long': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'time.formats.short': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'time.pm': Missing from :pt, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel
+'users.new.sign_in': Missing from :en, :time, :date, :datetime, :errors, :helpers, :number, :support, :activemodel

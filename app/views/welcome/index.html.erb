@@ -1,7 +1,19 @@
 
-<h3><center>Seja bem-vindo à UP Digital</center></h3>
-<div class="article-content">
-<p style="text-align: center;"><img src="/up.png" alt="União e Prosperidade"></p>
+<% if signed_in? -%>
+	<h3><center>Seja bem-vindo à UP Digital</center></h3>
+	<div class="article-content"> 
+		<p style="text-align: center;"><img src="/up.png" alt="União e Prosperidade"></p>
+	</div>
+<% else -%>
+	<%= render :partial => '/sessions/form' %>
+	<ul>
+  	<li>
+	    <%= link_to "Registrar-se", sign_up_path %> 
+  	</li>
+  	<li>
+	    <%= link_to "Esqueceu sua senha ?", new_password_path %>
+  	</li>
+	</ul>
+<% end -%>
 
-</div>
 

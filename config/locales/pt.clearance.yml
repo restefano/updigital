@@ -1,0 +1,99 @@
+pt:
+  clearance:
+    controllers:
+      sessions:
+        bad_email_or_password:
+          "E-mail ou senha inválidos."
+      passwords:
+        unknown_email:
+          "E-mail não cadastrado."
+        bad_email_or_password:
+          "Você deve digitar um e-mail válido. Senhas não podem ser vazias."
+        flash_failure_when_forbidden:
+          "URL inválido. Tente novamente."
+        flash_failure_after_create:
+          "E-mail desconhecido ou inválido."
+        flash_failure_after_update:
+          "Senhas não podem ser vazias."
+    models:
+      clearance_mailer:
+        change_password:
+          "Altere sua senha."
+
+
+  clearance_mailer:
+    change_password:
+      opening:
+        'Alguém, esperamos que tenha sido você, solicitou a nós que enviássemos um link com uma nova senha:'
+      closing:
+        "Se não foi você, basta ignorar este e-mail e sua senha não será modificada."
+  flashes:
+    failure_when_forbidden:
+      'Por favor verifique novamente o endereço ou tente enviar o formulário novamente.'
+    failure_after_update:
+      "Sua senha não pode ficar em branco."
+    failure_after_create:
+      'E-mail ou senha inválidos. Você está tentando registrar uma nova conta ?
+       <a href="%{sign_up_path}">Registre-se</a>.'
+  helpers:
+    submit:
+      password:
+        submit:
+          'Esqueci minha senha'
+      password_reset:
+        submit:
+          'Armazenar esta senha'
+      session:
+        submit:
+          'Entrar'
+      user:
+        create:
+          'Registrar-se'
+    label:
+      password:
+        email:
+          'Endereço de E-mail'
+      password_reset:
+        password:
+          'Escolha uma senha'
+  layouts:
+    application:
+      sign_in:
+        'Entrar'
+      sign_out:
+        'Sair'
+  passwords:
+    create:
+      description:
+        'Você receberá um e-mail nos próximos minutos.
+         Ele contém informações de como mudar a sua senha.'
+    edit:
+      description:
+        'Sua senha foi redefinida. Escolha uma nova senha abaixo.'
+      title:
+        'Altere sua senha'
+    new:
+      description:
+        'Para receber um e-mail para redefinir sua senha, por favor informe seu endereço de e-mail.'
+      title:
+        'Redefinir sua senha'
+  sessions:
+    new:
+      forgot_password:
+        'Esqueceu sua senha?'
+      sign_up:
+        'Registrar-se'
+      title:
+        'Bem-Vindo !'
+    form:
+      forgot_password:
+        'Esqueceu sua senha?'
+      sign_up:
+        'Registrar-se'
+      title:
+        'Entrar'
+  users:
+    new:
+      sign_in:
+        'Entrar'
+  

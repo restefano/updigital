@@ -44,7 +44,7 @@ class BrothersController < ApplicationController
 
     respond_to do |format|
       if @brother.save
-        format.html { redirect_to @brother, notice: 'Brother was successfully created.' }
+        format.html { redirect_to @brother, notice: 'Cadastro atualizado com sucesso.' }
         format.json { render json: @brother, status: :created, location: @brother }
       else
         format.html { render action: "new" }
@@ -60,7 +60,7 @@ class BrothersController < ApplicationController
 
     respond_to do |format|
       if @brother.update_attributes(params[:brother])
-        format.html { redirect_to @brother, notice: 'Brother was successfully updated.' }
+        format.html { redirect_to @brother, notice: 'Cadastro atualizado com sucesso.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

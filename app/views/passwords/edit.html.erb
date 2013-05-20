@@ -1,0 +1,17 @@
+<h4>Recuperação de Senha</h4>
+
+<p>
+  Sua senha foi reiniciada. Escolha uma nova senha abaixo.
+</p>
+
+<%= form_for(:user,
+             :url  => user_password_path(@user, :token => @user.confirmation_token),
+             :html => { :method => :put }) do |form| %>
+  <div class="password_field">
+    <%= form.label :password, "Nova senha" %>
+    <%= form.password_field :password %>
+  </div>
+  <div class="submit_field">
+  <button type="submit" class="btn btn-primary">Confirmar</button>
+  </div>
+<% end %>

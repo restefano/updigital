@@ -1,4 +1,5 @@
 pt:
+  bad_email_or_password: 'E-mail ou senha inválidos'
   time:
     am: ''
     formats:
@@ -209,14 +210,23 @@ pt:
   activemodel:
     errors:
       <<: *errors
+    errors:
+      <<: *errors
+
   activerecord:
     models:
-      brother: Irmão
+      brother: Obreiro
     attributes:
       brother:
         name: Nome
-        cellphone: Celular
         comphone: Comercial
+        cellphone: Celular
         birthdate: Aniversário
+        id: ID
     errors:
       <<: *errors
+
+    messages:
+      successful:
+        created: "%{model} foi criado com sucesso."
+        updated: "%{model} foi atualizado com sucesso."      

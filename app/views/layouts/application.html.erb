@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt"
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
@@ -37,129 +37,152 @@
   <body>
 
 
-    <div class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/">UP Digital</a>
-          <div class="container nav-collapse">
-            <ul class="nav">
+    <% if signed_in? -%>
 
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Eu na UP<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#">Meu Cadastro</a></li>
-    <li><a href="#">Meus Familiares</a></li>
-    <li><a href="#">Certificados de Presença</a></li>
-    <li><a href="#">Minhas Graduações</a></li>
-    <li><a href="#">Comissões que Faço Parte</a></li>
-    <li><a href="#">Cargos que já Fiz</a></li>
-    <li class="divider"></li>
-    <li class="nav-header">Minha Situação Atual</li>
-    <li><a href="#">Biblioteca</a></li>
-    <li><a href="#">Financeiro e Boletos  </a></li>
-    <li><a href="#">Presença nas Sessões</a></li>
-  </ul>
-</li>
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="/">       UP Digital</a>
+            <div class="container nav-collapse">
+              <ul class="nav">
 
-
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-
-    <li><a href="#">Sessões</a></li>
-    <li><a href="#">Frequência</a></li>
-    <li><a href="#">Certificados de Presença</a></li>
-    <li><a href="#">Eventos</a></li>
-    <li><a href="/brothers">Obreiros</a></li>
-    <li><a href="/brothers">Graduações</a></li>
-    <li><a href="#">Familiares</a></li>
-    <li><a href="#">Comissões Instituídas</a></li>
-    <li><a href="#">Cargos em Loja</a></li>
-    <li class="divider"></li>
-    <li class="nav-header">Biblioteca</li>
-    <li><a href="#">Acervo</a></li>
-    <li><a href="#">Empréstimos e Devoluções</a></li>
-    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Trabalhos apresentados em Loja</a></li>
-    <li class="divider"></li>
-    <li class="nav-header">Financeiro</li>
-    <li><a href="#">Despesas da Loja</a></li>
-    <li><a href="#">Receitas da Loja</a></li>
-    <li><a href="#">Tronco de Beneficência</a></li>
-    <li><a href="#">Uso do Tronco de Beneficência</a></li>
-    <li class="divider"></li>
-    <li class="nav-header">Configurações</li>
-    <li><a href="#">Usuários do Sistema</a></li>
-  </ul>
-</li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Eu na UP<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Meu Cadastro</a></li>
+                    <li><a href="#">Meus Familiares</a></li>
+                    <li><a href="#">Certificados de Presença</a></li>
+                    <li><a href="#">Minhas Graduações</a></li>
+                    <li><a href="#">Comissões que Faço Parte</a></li>
+                    <li><a href="#">Cargos que já Fiz</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Minha Situação Atual</li>
+                    <li><a href="#">Biblioteca</a></li>
+                    <li><a href="#">Financeiro e Boletos  </a></li>
+                    <li><a href="#">Presença nas Sessões</a></li>
+                  </ul>
+                </li>
 
 
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultas<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="#">Quadro de Obreiros</a></li>
-    <li><a href="#">Telefones</a></li>
-    <li><a href="#">Calendário da Loja</a></li>
-    <li><a href="#">Aniversariantes do Mês</a></li>
-    <li><a href="#">Comissões Ativas</a></li>
-    <li><a href="#">Frequência e Adimplência</a></li>
-    <li><a href="#">Acervo da Biblioteca</a></li>
-    <li><a href="#">Livros Emprestados</a></li>
-    <li><a href="#">Situação Financeira da Loja</a></li>
-    <li><a href="#">Uso do Tronco de Beneficência</a></li>
-    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Trabalhos apresentados em Loja</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
 
-  </ul>
-</li>
-
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Legislação<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="http://gob-sc.org.br">Postulados da Loja União e Prosperidade</a></li>
-    <li><a href="http://gob-sc.org.br">Constituição GOB-SC</a></li>
-    <li><a href="http://gob-sc.org.br">Constituição GOB</a></li>
-    <li><a href="http://gob.org.br">Regulamento Geral da Federação</a></li>
-    <li><a href="http://www.ritobrasileirogob.com.br/portal/">VADE-MECUM Atualizado</a></li>
-  </ul>
-</li>
-
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links Úteis<b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li><a href="http://gob.org.br">Grande Oriente do Brasil</a></li>
-    <li><a href="http://gob-sc.org.br">GOB-SC</a></li>
-    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Supremo Conclave para o Rito Brasileiro</a></li>
-  </ul>
-</li>
+                    <li><a href="#">Sessões</a></li>
+                    <li><a href="#">Frequência</a></li>
+                    <li><a href="#">Certificados de Presença</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="/brothers">Obreiros</a></li>
+                    <li><a href="/brothers">Graduações</a></li>
+                    <li><a href="#">Familiares</a></li>
+                    <li><a href="#">Comissões Instituídas</a></li>
+                    <li><a href="#">Cargos em Loja</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Biblioteca</li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Empréstimos e Devoluções</a></li>
+                    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Trabalhos apresentados em Loja</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Financeiro</li>
+                    <li><a href="#">Despesas da Loja</a></li>
+                    <li><a href="#">Receitas da Loja</a></li>
+                    <li><a href="#">Tronco de Beneficência</a></li>
+                    <li><a href="#">Uso do Tronco de Beneficência</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Configurações</li>
+                    <li><a href="#">Usuários do Sistema</a></li>
+                  </ul>
+                </li>
 
 
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consultas<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Quadro de Obreiros</a></li>
+                    <li><a href="#">Telefones</a></li>
+                    <li><a href="#">Calendário da Loja</a></li>
+                    <li><a href="#">Aniversariantes do Mês</a></li>
+                    <li><a href="#">Comissões Ativas</a></li>
+                    <li><a href="#">Frequência e Adimplência</a></li>
+                    <li><a href="#">Acervo da Biblioteca</a></li>
+                    <li><a href="#">Livros Emprestados</a></li>
+                    <li><a href="#">Situação Financeira da Loja</a></li>
+                    <li><a href="#">Uso do Tronco de Beneficência</a></li>
+                    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Trabalhos apresentados em Loja</a></li>
 
+                  </ul>
+                </li>
 
-            </ul>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Legislação<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://gob-sc.org.br">Postulados da Loja União e Prosperidade</a></li>
+                    <li><a href="http://gob-sc.org.br">Constituição GOB-SC</a></li>
+                    <li><a href="http://gob-sc.org.br">Constituição GOB</a></li>
+                    <li><a href="http://gob.org.br">Regulamento Geral da Federação</a></li>
+                    <li><a href="http://www.ritobrasileirogob.com.br/portal/">VADE-MECUM Atualizado</a></li>
+                  </ul>
+                </li>
 
-          </div><!--/.nav-collapse -->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links Úteis<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://gob.org.br">Grande Oriente do Brasil</a></li>
+                    <li><a href="http://gob-sc.org.br">GOB-SC</a></li>
+                    <li><a href="http://www.ritobrasileirogob.com.br/portal/">Supremo Conclave para o Rito Brasileiro</a></li>
+                  </ul>
+                </li>
+
+                <li class="link">
+                  <%= link_to "Sair", sign_out_path, :method => :delete %>
+                </li>
+              </ul>
+
+            </div><!--/.nav-collapse -->
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-          <div class="span9">
-            <br>
-            <br>
-            <%= bootstrap_flash %>
-            <%= yield %>
-      <footer>
-        <br>
+      <div class="container">
+          <div class="row">
+            <div class="span9">
+              <br>
+              <br>
+              <%= bootstrap_flash %>
+              <%= yield %>
+    <footer>
+      <br>
         <p align=center>&copy; Loja União e Prosperidade 2013 - Todos os direitos reservados.</p>
-      </footer>
-          </div>
-        </div><!--/row-->
-    </div> <!-- /container -->
+    </footer>
+            </div>
+          </div><!--/row-->
+      </div> <!-- /container -->
+
+    <% else -%>
+      <br>
+
+      <center><h3>Portal UP Digital</h3>
+        <div class="article-content">
+          <p style="text-align: center;"><img width=300 src="/up.png" alt="União e Prosperidade"></p>
+      </div>
+      <div id="flash" align="center">
+              <%= bootstrap_flash %>
+              <%= yield %>
+    <footer>
+      <br>
+        <p align=center>&copy; Loja União e Prosperidade 2013 - Todos os direitos reservados.</p>
+    </footer>
+      </div>
+      </center>
+
+
+    <% end -%>
+
 
 
     <!-- Javascripts
